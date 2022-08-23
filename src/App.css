@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+.card__app{
+    position: relative;
+}
+
+.card-app__title{
+    width: 245px;
+    height: 45px;
+    margin-left: 102px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #0F0F2D;
+}
+.card-app__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 227px;
+    height: 45px;
+    right: 102px;
+    top: 14px;
+
+    background: #555A88;
+    cursor: pointer;
+}
+
+
+.card-app_btn, .fa{
+    font-size: 2rem;
+}
+
+
+.fa-solid{
+    font-size: 1rem;
+}
+
+.card-app__btn:hover{
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+}
+
+/* css userList */
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    z-index: 1;
+    /* background: #212121;
+    opacity: 0.3; */
+}
+.card{
+    box-sizing:border-box;
+    width: 381px;
+    height: 274px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 200ms ease ;
+}
+
+
+.card__footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:5px;
+}
+
+.card-btn__delete{
+    width: 43px;
+    height: 43px;
+
+    background: #D85D5D;
+    border: 1px solid #D93F3F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.card-btn__update{
+    box-sizing: border-box;
+    width: 43px;
+    height: 43px;
+
+    background-color: #f7f7f7;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.card__names{
+    width: 339px;
+    height: 34px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #0F0F2D;
+}
+
+
+.card__item span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #D3D3D3;
+}
+
+
+
+
+
+
+
