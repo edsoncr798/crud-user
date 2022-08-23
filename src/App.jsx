@@ -15,7 +15,7 @@ function App() {
   // un useState: para renderizar informacion entre los componentes creados(componentes hijos)
   const [updateData, setUpdateData] = useState()
 
-  const [openForm, setOpenForm] = useState(false)
+  const [openForm, setOpenForm] = useState(true)
 
   const isOpenForm=()=>setOpenForm(true)
 
