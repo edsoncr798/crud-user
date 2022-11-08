@@ -37,6 +37,9 @@ body{
     cursor: pointer;
 }
 
+.card-app__btn h3{
+    color: white;
+}
 
 .card-app_btn, .fa{
     font-size: 2rem;
